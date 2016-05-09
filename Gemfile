@@ -49,3 +49,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+#heroku stuff
+gem 'rails_12factor', group: :production
+
+ruby '2.2.2'
