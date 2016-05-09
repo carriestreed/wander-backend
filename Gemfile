@@ -51,8 +51,5 @@ group :development do
 end
 
 #heroku stuff
-group :production do
-     gem 'rails_12factor'
-   end
-
-   ruby '2.2.2'
+  gem 'rails_12factor', group: :production
+  ruby '2.2.2'
